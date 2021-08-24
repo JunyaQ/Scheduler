@@ -1,0 +1,206 @@
+/*for all elements of this webpage, all the boxes, the child box is insided the parent box, and padding and margine does not have extra space */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*for the body part set the background color*/
+body {
+    background-color: #d9dcd6;
+}
+/*for header, set edge space 20px, set the words font, the background color and the color for words*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*for h1, disable make new line default, set it as inline, set the size of "Hori" part as 48px*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*set header "seo" in different color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*set the navigation bar to the right top with space to the edge and each element, set font and size */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*set the list without any dot or other symbol in front of each li*/
+.header div ul {
+    list-style-type: none;
+}
+/*make the list in one line and set space between each list item*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*set three clickable section color and without any underline or other decoration*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*set all paragraph words size*/
+p {
+    font-size: 16px;
+}
+/*set hero section hight and width, space to the bottom part, set background image
+set the background width as loarge as possible and position in the center */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*set two of the picture in .hero section float left, and set space to the paragraph*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*set one of the picture in .hero section float right, and set space to the paragraph*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*set the width of the content is 75% of the page size and set space to the edge */
+.content {
+    width: 75%;
+    display: inline-block;/**/
+    margin-left: 20px;
+}
+/*set space to the edge and space to the paragraph, set the picture after all the words, set the content is 20% of the page size 
+and float to the right, set the word font and background color*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*set the word space to the bottom and set the words color*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*set the space between heading to the picture and set the heading centered*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*set the image start in a new line, set vertical and hotizontal margine and max width of 150px*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*set space bettwen search engine optimization, online reploutation management and social media marketing 20px
+set space between the background top 50px, set the background height 300px, set the word font, word color and background color
+ */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*set image maximum height*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*set the space between the heading to the paragraph, set the heading size*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*set the space between the body to the copy right footer, set pictures after all paragraphs if have any, set the words font
+set all the wrods in the center */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*set the heading of the footer font size of 20px*/
+.footer h2 {
+    font-size: 20px;
+}
