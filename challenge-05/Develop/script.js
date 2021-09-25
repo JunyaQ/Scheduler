@@ -1,3 +1,5 @@
+
+$(".date").text("${output}");
 function DisplayDate()
 {
     var date = moment().format('MMMM Do YYYY, h:mm:ss a');
@@ -5,3 +7,4 @@ function DisplayDate()
     $("#currentDay").text(date);
 }
 DisplayDate();
+
