@@ -36,6 +36,58 @@ function DisplayDate()
 DisplayDate();
 
 /**save the schedule after click onto the save button */
-function saveSchedule(){
-    
-}
+var time0amInput = $("#0amInput");
+var time1amInput = $("#1amInput");
+var time2amInput = $("#2amInput");
+var time3amInput = $("#3amInput");
+var time4amInput = $("#4amInput");
+var time5amInput = $("#5amInput");
+var time6amInput = $("#6amInput");
+var time7amInput = $("#7amInput");
+var time8amInput = $("#8amInput");
+var time9amInput = $("#9amInput");
+var time10amInput = $("#10amInput");
+var time11amInput = $("#11amInput");
+var time12pmInput = $("#12pmInput");
+var time1pmInput = $("#1pmInput");
+var time2pmInput = $("#2pmInput");
+var time3pmInput = $("#3pmInput");
+var time4pmInput = $("#4pmInput");
+var time5pmInput = $("#5pmInput");
+var time6pmInput = $("#6pmInput");
+var time7pmInput = $("#7pmInput");
+var time8pmInput = $("#8pmInput");
+var time9pmInput = $("#9pmInput");
+var time10pmInput = $("#10pmInput");
+var time11pmInput = $("#11pmInput");
+$(".saveBtn").on("click", function(event) {
+    console.log(time0amInput.val());
+    localStorage.setItem("0am",(time0amInput.val()));
+    localStorage.setItem("1am",(time1amInput.val()));
+    localStorage.setItem("2am",(time2amInput.val()));
+    localStorage.setItem("3am",(time3amInput.val()));
+    localStorage.setItem("4am",(time4amInput.val()));
+    localStorage.setItem("5am",(time5amInput.val()));
+    localStorage.setItem("6am",(time6amInput.val()));
+    localStorage.setItem("7am",(time7amInput.val()));
+    localStorage.setItem("8am",(time8amInput.val()));
+    localStorage.setItem("9am",(time9amInput.val()));
+    localStorage.setItem("10am",(time10amInput.val()));
+    localStorage.setItem("11am",(time11amInput.val()));
+    localStorage.setItem("12pm",(time12pmInput.val()));
+    localStorage.setItem("1pm",(time1pmInput.val()));
+    localStorage.setItem("2pm",(time2pmInput.val()));
+    localStorage.setItem("3pm",(time3pmInput.val()));
+    localStorage.setItem("4pm",(time4pmInput.val()));
+    localStorage.setItem("5pm",(time5pmInput.val()));
+    localStorage.setItem("6pm",(time6pmInput.val()));
+    localStorage.setItem("7pm",(time7pmInput.val()));
+    localStorage.setItem("8pm",(time8pmInput.val()));
+    localStorage.setItem("9pm",(time9pmInput.val()));
+    localStorage.setItem("10pm",(time10pmInput.val()));
+    localStorage.setItem("11pm",(time11pmInput.val()));
+
+   
+  
+})
+//saveSchedule()
