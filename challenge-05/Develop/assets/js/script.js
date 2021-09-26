@@ -1,22 +1,3 @@
-var currentTime = moment().format('H');
-var hourPast = hourPast < currentTime;
-var hourNow = currentTime;
-var hourFuture = hourFuture < currentTime;
-
-// if currentTime > hourNow make background color gray//
-
-var hourNow = currentTime;
-//var counter =0;
-console.log(hourNow)
-console.log(currentTime)
-function rowcounter(){
-    var row = document.getElementsByClassName("row");
-    console.log("counter: "+Array.from(row).length);
-    
-    
-}
-rowcounter();
-
     function backgroundColorEdit(){
         //get row and for each row compare the time and change the color
         var rowcounter =document.getElementsByClassName("row");
@@ -41,18 +22,10 @@ rowcounter();
            }
 
             });
-            
-           
-
-            
-     
-
-        
+               
 }
 backgroundColorEdit();
 /**  */
-//backgroundColorEdit();
-//displaypresent();
 //current time
 function DisplayDate()
 {
@@ -62,3 +35,7 @@ function DisplayDate()
 }
 DisplayDate();
 
+/**save the schedule after click onto the save button */
+function saveSchedule(){
+    
+}
