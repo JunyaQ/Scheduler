@@ -60,6 +60,7 @@ var time8pmInput = $("#8pmInput");
 var time9pmInput = $("#9pmInput");
 var time10pmInput = $("#10pmInput");
 var time11pmInput = $("#11pmInput");
+
 $(".saveBtn").on("click", function(event) {
     console.log(time0amInput.val());
     localStorage.setItem("0am",(time0amInput.val()));
@@ -86,8 +87,34 @@ $(".saveBtn").on("click", function(event) {
     localStorage.setItem("9pm",(time9pmInput.val()));
     localStorage.setItem("10pm",(time10pmInput.val()));
     localStorage.setItem("11pm",(time11pmInput.val()));
-
-   
   
 })
-//saveSchedule()
+/**display schedule when refresh */
+function displaySchedule(){
+$("#0amInput").append(localStorage.getItem("0am"));
+$("#1amInput").append(localStorage.getItem("1am"));
+$("#2amInput").append(localStorage.getItem("2am"));
+$("#3amInput").append(localStorage.getItem("3am"));
+$("#4amInput").append(localStorage.getItem("4am"));
+$("#5amInput").append(localStorage.getItem("5am"));
+$("#6amInput").append(localStorage.getItem("6am"));
+$("#7amInput").append(localStorage.getItem("7am"));
+$("#8amInput").append(localStorage.getItem("8am"));
+$("#9amInput").append(localStorage.getItem("9am"));
+$("#10amInput").append(localStorage.getItem("10am"));
+$("#11amInput").append(localStorage.getItem("11am"));
+$("#12pmInput").append(localStorage.getItem("12pm"));
+$("#1pmInput").append(localStorage.getItem("1pm"));
+$("#2pmInput").append(localStorage.getItem("2pm"));
+$("#3pmInput").append(localStorage.getItem("3pm"));
+$("#4pmInput").append(localStorage.getItem("4pm"));
+$("#5pmInput").append(localStorage.getItem("5pm"));
+$("#6pmInput").append(localStorage.getItem("6pm"));
+$("#7pmInput").append(localStorage.getItem("7pm"));
+$("#8pmInput").append(localStorage.getItem("8pm"));
+$("#9pmInput").append(localStorage.getItem("9pm"));
+$("#10pmInput").append(localStorage.getItem("10pm"));
+$("#11pmInput").append(localStorage.getItem("11pm"));
+
+}
+displaySchedule();
