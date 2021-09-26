@@ -9,3 +9,4 @@ WHEN click the save button<br/>
 THEN it saved in localStorage<br/>
 WHEN refresh the page<br/>
 THEN the text in localStorage will shows on the page based on time slot<br/>
+<img src="./img/webpage.jpg">
