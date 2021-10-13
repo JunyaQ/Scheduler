@@ -92,11 +92,5 @@ $("#2pmInput").append(localStorage.getItem("2pm"));
 $("#3pmInput").append(localStorage.getItem("3pm"));
 $("#4pmInput").append(localStorage.getItem("4pm"));
 $("#5pmInput").append(localStorage.getItem("5pm"));
-/*$("#6pmInput").append(localStorage.getItem("6pm"));
-$("#7pmInput").append(localStorage.getItem("7pm"));
-$("#8pmInput").append(localStorage.getItem("8pm"));
-$("#9pmInput").append(localStorage.getItem("9pm"));
-$("#10pmInput").append(localStorage.getItem("10pm"));
-$("#11pmInput").append(localStorage.getItem("11pm"));*/
-    }
+}
 displaySchedule();
