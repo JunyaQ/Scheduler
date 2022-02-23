@@ -1,4 +1,7 @@
 # Scheduler
+## Scheduler
+This webpage will add notes to the slot and disply it based on the business hour. The color of the slot will be changed based on current time by using moment js
+## About Scheduler
 WHEN open the page<br/>
 THEN the current date and time is displayed based on moment.js and displaying the business hour<br/>
 WHEN view the blocks
@@ -9,5 +12,13 @@ WHEN click the save button<br/>
 THEN it saved in localStorage<br/>
 WHEN refresh the page<br/>
 THEN the text in localStorage will shows on the page based on time slot<br/>
-<img src="./img/webpage.jpg">
-Deployed webpage: https://junyaq.github.io/bootcamp-challenge-scheduler/
+
+## Technologies use
+- HTML
+- CSS
+- Javascript
+- Moment js
+
+## Demo
+![Main page](https://github.com/JunyaQ/Scheduler/blob/main/img/webpage.jpg)
+Deployed webpage: https://junyaq.github.io/Scheduler/
